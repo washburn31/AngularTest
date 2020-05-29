@@ -6,7 +6,7 @@ import { FireBaseCommentService } from 'src/shared/firebase-comment.service';
   templateUrl: './comments.component.html',
   styleUrls: ['./comments.component.css'],
 })
-export class CommentsComponent implements OnInit {
+export class CommentsComponent implements OnInit { 
   public success = false;
   public comments;
 
