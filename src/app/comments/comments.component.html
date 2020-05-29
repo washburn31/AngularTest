@@ -1,0 +1,21 @@
+<div class="alert alert-success" *ngIf="success">
+  <strong>Success!</strong> Comment added.
+</div>
+
+<div class="container">
+  Comments
+  <ul>
+    <li class="text" *ngFor="let comment of comments">
+    {{comment.commentTile}}
+  </li>
+  </ul>
+
+  <div class="row">
+    <div class="col6">
+      <div class="form-group">
+        <input #comment type="text" class="form-control" />
+        <button (click)="addComment(comment.value)" class="btn btn-primary mt-2">Add comment</button>
+      </div>
+    </div>
+  </div>
+</div>
