@@ -6,7 +6,7 @@ import { FireBaseCommentService } from 'src/shared/firebase-comment.service';
   templateUrl: './comments.component.html',
   styleUrls: ['./comments.component.css'],
 })
-export class CommentsComponent implements OnInit { 
+export class CommentsComponent implements OnInit {
   public success = false;
   public comments;
 
@@ -15,7 +15,9 @@ export class CommentsComponent implements OnInit {
   ngOnInit() {
     this.fireBaseCommentService
       .getComments()
-      .subscribe((res) => (this.comments = res.filter((c) => c.commentTitle !== '')));
+      .subscribe(
+        (res) => (this.comments = res.filter((c) => c.commentTitle !== ''))
+      );
   }
 
   addComment(comment: string) {
