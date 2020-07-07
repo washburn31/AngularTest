@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  urlAddress: 'http://localhost:5000',
+  urlAddress: 'http://my-json-server.typicode.com/washburn31/AngularTest',
   firebaseConfig: {
     apiKey: 'AIzaSyA9Nn4WhaYyEnEUVP7RhEwgWhDOLWDAm2s',
     authDomain: 'listings-9cada.firebaseapp.com',

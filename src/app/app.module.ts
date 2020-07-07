@@ -15,9 +15,20 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NotFoundComponent } from './error-pages/not-found/not-found.component';
+import { ServerErrorComponent } from './error-pages/server-error/server-error.component';
 
 @NgModule({
-  declarations: [AppComponent, CommentsComponent, LayoutComponent, HomeComponent, HeaderComponent, SidenavListComponent],
+  declarations: [
+    AppComponent,
+    CommentsComponent,
+    LayoutComponent,
+    HomeComponent,
+    HeaderComponent,
+    SidenavListComponent,
+    NotFoundComponent,
+    ServerErrorComponent
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -26,7 +37,7 @@ import { HttpClientModule } from '@angular/common/http';
     AngularFirestoreModule,
     MaterialModule,
     FlexLayoutModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
