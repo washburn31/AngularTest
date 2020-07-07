@@ -7,7 +7,7 @@
     "address": "27 Colored Row",
     "accounts": [{
       "id" : 1,
-      "dateCreated": "15-11-1974",
+      "dateCreated": "December 1, 2002 9:03:01 AM GMT+1",
       "accountType": "Livret A",
       "ownerId": 1
     }]
@@ -19,7 +19,7 @@
    "address": "Congress Avenue 56",
    "accounts": [{
       "id" : 2,
-      "dateCreated": "31-12-2000",
+      "dateCreated": "December 11, 2012 9:03:01 AM GMT+1",
       "accountType": "CEL",
       "ownerId": 2
     }]
