@@ -1,0 +1,28 @@
+{
+  "owner": [
+  {
+    "id": 1,
+    "name": "Anna Bosh",
+    "dateOfBirth": "14-11-1974",
+    "address": "27 Colored Row"      
+  },
+  {
+   "id": 2,
+   "name": "Daniel Batisla",
+   "dateOfBirth": "19-04-2000",
+   "address": "Congress Avenue 56"      
+  },
+  {
+   "id": 3,
+   "name": "John Keen",
+   "dateOfBirth": "05-12-1980",
+   "address": "61 Weilfried Road"      
+  },
+  {
+   "id": 4,
+   "name": "Nick Somion",
+   "dateOfBirth": "15-12-1998",
+   "address": "North Sunny addreess 102"      
+  }
+  ]  
+}
