@@ -5,6 +5,7 @@
 export const environment = {
   production: false,
   urlAddress: 'http://my-json-server.typicode.com/washburn31/AngularTest',
+  urlSignalR: 'https://localhost:5001/signalHub',
   firebaseConfig: {
     apiKey: 'AIzaSyA9Nn4WhaYyEnEUVP7RhEwgWhDOLWDAm2s',
     authDomain: 'listings-9cada.firebaseapp.com',

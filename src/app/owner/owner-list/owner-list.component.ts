@@ -5,6 +5,7 @@ import { RepositoryService } from 'src/shared/repository.service';
 import { MatSort } from '@angular/material/sort';
 import { MatPaginator } from '@angular/material/paginator';
 import { ErrorHandlerService } from 'src/shared/services/error-handler.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-owner-list',
@@ -27,7 +28,8 @@ export class OwnerListComponent implements OnInit, AfterViewInit {
 
   constructor(
     private repositoryService: RepositoryService,
-    private errorHandlerService: ErrorHandlerService
+    private errorHandlerService: ErrorHandlerService,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -54,9 +56,12 @@ export class OwnerListComponent implements OnInit, AfterViewInit {
     this.dataSource.filter = value.trim().toLocaleLowerCase();
   }
 
-  public redirectToDetails(id: string) {}
-
   public redirectToUpdate(id: string) {}
 
   public redirectToDelete(id: string) {}
+
+  public redirectToDetails(id: string) {
+    const url = `/owner/details/${id}`;
+    this.router.navigate([url]);
+  }
 }

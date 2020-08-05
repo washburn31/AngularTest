@@ -15,4 +15,40 @@
                 side-bar as well. </p>
         </mat-tab>
     </mat-tab-group>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <h4>Signals</h4>
+            </div>
+            <div class="row">
+                <div class="col col-md-6">
+                    <span>
+                        <p>You can monitor all activies by using this module.</p>
+                    </span>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr class="table-primary">
+                            <th scope="col">Customer</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Area</th>
+                            <th scope="col">Zone</th>
+                            <th scope="col">Signal</th>
+                        </tr>
+                    </thead>
+                    <tbody *ngIf="signals">
+                        <tr *ngFor="let signal of signals">
+                            <td>{{ signal.customerName }}</td>
+                            <td>{{ signal.description }}</td>
+                            <td>{{ signal.area }}</td>
+                            <td>{{ signal.zone }}</td>
+                            <td>{{ signal.signalStamp }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </section>
