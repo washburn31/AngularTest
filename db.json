@@ -4,13 +4,25 @@
     "id": 1,
     "name": "Anna Bosh",
     "dateOfBirth": "14-11-1974",
-    "address": "27 Colored Row"      
+    "address": "27 Colored Row",
+    "accounts": [{
+      "id" : 1,
+      "dateCreated": "December 1, 2002 9:03:01 AM GMT+1",
+      "accountType": "Livret A",
+      "ownerId": 1
+    }]
   },
   {
    "id": 2,
    "name": "Daniel Batisla",
    "dateOfBirth": "19-04-2000",
-   "address": "Congress Avenue 56"      
+   "address": "Congress Avenue 56",
+   "accounts": [{
+      "id" : 2,
+      "dateCreated": "December 11, 2012 9:03:01 AM GMT+1",
+      "accountType": "CEL",
+      "ownerId": 2
+    }]
   },
   {
    "id": 3,
