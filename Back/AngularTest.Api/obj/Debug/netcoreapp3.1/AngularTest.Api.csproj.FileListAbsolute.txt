@@ -51,3 +51,4 @@ D:\Projets\AngularTest\Back\AngularTest.Api\obj\Debug\netcoreapp3.1\AngularTest.
 D:\Projets\AngularTest\Back\AngularTest.Api\obj\Debug\netcoreapp3.1\AngularTest.Api.dll
 D:\Projets\AngularTest\Back\AngularTest.Api\obj\Debug\netcoreapp3.1\AngularTest.Api.pdb
 D:\Projets\AngularTest\Back\AngularTest.Api\obj\Debug\netcoreapp3.1\AngularTest.Api.genruntimeconfig.cache
+D:\Projets\AngularTest\Back\AngularTest.Api\bin\Debug\netcoreapp3.1\web.config
